@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --branding-color: #3f4986;
+  --secondary-color: #c7d0e0;
+  --heading-font-family: "Overpass", sans-serif;
+  --default-font-family: "Playfair Display", serif;
 }
 
 body {
@@ -18,11 +18,6 @@ h6 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
-}
-
-h1 {
-  font-size: 96px;
-  line-height: 1.5;
 }
 
 h2 {
@@ -64,8 +59,9 @@ p {
 }
 
 .content h1 {
-  font-size: 58px;
-  line-height: 80px;
+  font-size: 45px;
+  line-height: 60px;
+  color: var(--branding-color);
 }
 
 .content h2 {
@@ -110,6 +106,12 @@ p {
 .btn:hover {
   color: black;
   border: 1px solid var(--branding-color);
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin: 50px 10px;
 }
 
 .project-description {
